@@ -8,3 +8,9 @@ else:
     print("You can't buy a beer!");
 
 
+name = "Jack";
+
+if name is "Jack":
+    print("Hello Jack");
+else:
+    print("Hello stranger :)");
