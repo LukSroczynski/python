@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58f0028-b28b-499d-b7f2-090690a443d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-tests/3-for-loop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-tests/4_range_while.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-tests/1-hello-world.py" afterPath="$PROJECT_DIR$/1-tests/1_hello_world.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-tests/2-if-elif-else.py" afterPath="$PROJECT_DIR$/1-tests/2_if_elif_else.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1-tests/3-for-loop.py" afterPath="$PROJECT_DIR$/1-tests/3_for_loop.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-tests/2-if-elif-else.py" afterPath="$PROJECT_DIR$/1-tests/2-if-elif-else.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$4_range_while.coverage" NAME="4_range_while Coverage Results" MODIFIED="1495268360980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-tests" />
     <SUITE FILE_PATH="coverage/python$1_Hello_World.coverage" NAME="1-Hello-World Coverage Results" MODIFIED="1495230482808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-tests" />
-    <SUITE FILE_PATH="coverage/python$2_if_elif_else.coverage" NAME="2-if-elif-else Coverage Results" MODIFIED="1495264497114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-tests" />
+    <SUITE FILE_PATH="coverage/python$3_for_loop.coverage" NAME="3_for_loop Coverage Results" MODIFIED="1495265389906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-tests" />
+    <SUITE FILE_PATH="coverage/python$2_if_elif_else.coverage" NAME="2-if-elif-else Coverage Results" MODIFIED="1495265160243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-tests" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1-hello-world.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-tests/1-hello-world.py">
+      <file leaf-file-name="1_hello_world.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-tests/1_hello_world.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -30,8 +34,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-if-elif-else.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-tests/2-if-elif-else.py">
+      <file leaf-file-name="2_if_elif_else.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-tests/2_if_elif_else.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -40,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-for-loop.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1-tests/3-for-loop.py">
+      <file leaf-file-name="3_for_loop.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-tests/3_for_loop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_range_while.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-tests/4_range_while.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,6 +83,8 @@
         <option value="$PROJECT_DIR$/1-tests/if-elif-else.py" />
         <option value="$PROJECT_DIR$/1-tests/2-if-elif-else.py" />
         <option value="$PROJECT_DIR$/1-tests/3-for-loop.py" />
+        <option value="$PROJECT_DIR$/1-tests/3_for_loop.py" />
+        <option value="$PROJECT_DIR$/1-tests/4_range_while.py" />
       </list>
     </option>
   </component>
@@ -124,6 +140,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Surreallistic\Desktop\GIT\python\1-tests" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -136,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2-if-elif-else">
+  <component name="RunManager" selected="Python.4_range_while">
     <configuration default="false" name="1-Hello-World" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +171,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Surreallistic\Desktop\GIT\python\1-tests\1-hello-world.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Surreallistic\Desktop\GIT\python\1-tests\1_hello_world.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +190,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-tests/2-if-elif-else.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Surreallistic\Desktop\GIT\python\1-tests\2_if_elif_else.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3_for_loop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-tests/3_for_loop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="4_range_while" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1-tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-tests/4_range_while.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,14 +382,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.1-Hello-World" />
       <item index="1" class="java.lang.String" itemvalue="Python.2-if-elif-else" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3_for_loop" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4_range_while" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.2-if-elif-else" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1-Hello-World" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.4_range_while" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3_for_loop" />
+        <item index="2" class="java.lang.String" itemvalue="Python.2-if-elif-else" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1-Hello-World" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +446,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-tests/1-hello-world.py">
+    <entry file="file://$PROJECT_DIR$/1-tests/1_hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -391,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-tests/2-if-elif-else.py">
+    <entry file="file://$PROJECT_DIR$/1-tests/2_if_elif_else.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -400,7 +463,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/1-tests/1-hello-world.py">
+    <entry file="file://$PROJECT_DIR$/1-tests/1_hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -408,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-tests/2-if-elif-else.py">
+    <entry file="file://$PROJECT_DIR$/1-tests/2_if_elif_else.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -416,10 +479,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-tests/3-for-loop.py">
+    <entry file="file://$PROJECT_DIR$/1-tests/3_for_loop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-tests/4_range_while.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
