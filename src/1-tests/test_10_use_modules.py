@@ -1,0 +1,3 @@
+import test_5_functions_return_default_arguments
+
+test_5_functions_return_default_arguments.print_hello_world()

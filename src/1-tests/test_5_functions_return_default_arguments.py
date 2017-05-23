@@ -14,11 +14,11 @@ def print_age_range(age_from=1, age_to=20):
     return limit_age
 
 
-print_hello_world()
-
-print(btc_to_usd(1.15))
-print(btc_to_usd(1.23))
-
-print(print_age_range())  # Default arguments
-print(print_age_range(age_to=30))
+# print_hello_world()
+#
+# print(btc_to_usd(1.15))
+# print(btc_to_usd(1.23))
+#
+# print(print_age_range())  # Default arguments
+# print(print_age_range(age_to=30))
 
