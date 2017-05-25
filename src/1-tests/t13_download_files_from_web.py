@@ -1,7 +1,6 @@
 from urllib import request
 
-goog_url = "https://query1.finance.yahoo.com/v7/finance/download/" \
-           "GOOG?period1=1492954492&period2=1495546492&interval=1d&events=history&crumb=/UbeUPzhzgy"
+goog_url = "http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv"
 
 
 def download_stock_data(csv_url):
