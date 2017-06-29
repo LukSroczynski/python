@@ -19,3 +19,20 @@ class Queue:
     def enqueue(self, x):
         if self.size == self.max:
             return False
+        self.data[self.tail] = x
+        self.size += 1
+        self.tail += 1
+        if self.tail == self.max:
+            self.tail = 0
+        return True
+
+    def dequeue(self):
+        if self.size == 0:
+            return None
+        x = self.data[self.head]
+        self.size -= 1
+        self.head += 1
+        if self.head == self.max:
+            self.head = 0
+        return x
+
