@@ -1,5 +1,22 @@
+# CORRECT SPECIFICATION:
+#
+# the Queue class provides a fized-size FIFO queue of integers
+#
+# the constructor takes a single parameter: an integer >0 that
+# is the maximum number of elements the queue can hold
+#
+# empty() returns True iff the queue holds no elements
+#
+# full() returns True iff the queue cannot hold any more elements
+#
+# enqueue(i) attempts to put the integer i into the queue; it returns
+# True if successful and False if the queue is full
+#
+# dequeue() removes an integer from the queue and returns it,
+# or else returns None if the queue is empty
+
 import array
-import random
+
 
 class Queue:
     def __init__(self, size_max):
@@ -36,3 +53,80 @@ class Queue:
             self.head = 0
         return x
 
+
+def test1():
+    q = Queue(3)
+    res = q.empty()
+    if not res:
+        print
+        "test1 NOT OK"
+        return
+    res = q.enqueue(10)
+    if not res:
+        print
+        "test1 NOT OK"
+        return
+    res = q.enqueue(11)
+    if not res:
+        print
+        "test1 NOT OK"
+        return
+    x = q.dequeue()
+    if x != 10:
+        print
+        "test1 NOT OK"
+        return
+    x = q.dequeue()
+    if x != 11:
+        print
+        "test1 NOT OK"
+        return
+    res = q.empty()
+    if not res:
+        print
+        "test1 NOT OK"
+        return
+    print
+    "test1 OK"
+
+
+def test2():
+    q = Queue(1)
+    res = q.empty()
+    if not res:
+        print
+        "test2 NOT OK"
+        return
+    x = q.dequeue()
+    if x != None:
+        print
+        "test1 NOT OK"
+        return
+    print
+    "test2 OK"
+
+
+def test3():
+    q = Queue(1)
+    res = q.empty()
+    if not res:
+        print
+        "test3 NOT OK"
+        return
+    res = q.enqueue(11)
+    if not res:
+        print
+        "test3 NOT OK"
+        return
+    res = q.enqueue(11)
+    if res:
+        print
+        "test3 NOT OK"
+        return
+    print
+    "test3 OK"
+
+
+test1()
+test2()
+test3()
